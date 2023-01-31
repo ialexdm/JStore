@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="407.0" prefWidth="607.0">
+         <children>
+            <Label fx:id="jstoreHeader" alignment="CENTER" prefHeight="93.0" prefWidth="256.0" text="JStore">
+               <font>
+                  <Font name="System Bold" size="64.0" />
+               </font>
+            </Label>
+            <Label fx:id="description" contentDisplay="CENTER" text="things for people">
+               <font>
+                  <Font name="JetBrains Mono ExtraLight Italic" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="welcomeMessage" contentDisplay="CENTER" text="Welcome and let's start shopping!">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
